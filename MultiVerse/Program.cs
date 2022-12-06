@@ -8,12 +8,12 @@ namespace MultiVerse
         {
             Console.WriteLine("Hello World MASTER Local!");
 
-
+            calculAddition();
         }
 
-        static void NavBar()
+        static void calculAddition()
         {
-            Console.WriteLine("J'ai codé une Navbar en Html");
+            Console.WriteLine(1+1);
         }
     }
 }
