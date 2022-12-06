@@ -6,7 +6,8 @@ namespace MultiVerse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World MASTER Github !");
+            Console.WriteLine("Hello World MASTER Local!");
+
         }
     }
 }
