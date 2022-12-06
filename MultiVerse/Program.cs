@@ -8,12 +8,13 @@ namespace MultiVerse
         {
             Console.WriteLine("Hello World MASTER Local!");
 
-            calculAddition();
+            Console.WriteLine(calculAddition());
         }
 
-        static void calculAddition()
+        static int calculAddition()
         {
-            Console.WriteLine(1+1);
+            int result = 1 + 1;
+            return result;
         }
     }
 }
